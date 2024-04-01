@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRANS Store - Home</title>
+    <link rel="shortcut icon" href="/shopImage/img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/component/navbar.css">
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="/swiperCDN/swiper-bundle.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <!-- Font awesome ฉุกเฉิน -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+<!--------------------------------------- Register --------------------------------------->
+    <section class="register">
+        <div class="register-row ">
+
+            <div class="register-col regis-img"><img src="/shopImage/img/style4.jpg" alt=""></div>
+
+            <div class="register-col">
+
+                <div class="closeBtn">x</div>
+
+                <div class="registerBx">
+
+                    <div class="register-btn">
+                        <p class="register-color">Register</p>
+                        <p class="login-color">Login</p>
+                        <button class="change-btn"></button>
+                    </div>
+
+                    <!-- Register and login box -->
+                    <div class="changeCart">
+                        <div class="register-cart">
+
+                            <div class="inputBx">
+                                <input type="text" placeholder="Enter your name">
+                            </div>
+                            <input type="text" placeholder="Enter you email">
+                            <input type="text" placeholder="Enter you password">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Enter you address"></textarea>
+                            <button class="submit-btn">Register</button>
+                            <p class="already-title">Already have an account <span class="clickLogin">Login</span></p>
+                            <p>or</p>
+
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true" class="regis-icon"></i></a></li>
+                                <li><a href=""><i class="fa fa-instagram" aria-hidden="true" class="regis-icon"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true" class="regis-icon"></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true" class="regis-icon"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="login-cart">
+                            <input type="text" placeholder="Enter you email">
+                            <input type="text" placeholder="Enter you password">
+
+                            <button class="submit-btn">Register</button>
+
+                            <div class="checkUser">
+                                <div class="rememberMe">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Remember Me</label>
+                                </div>
+                                <p class="forget-password">Forget password ? </p>
+                            </div>
+
+
+                            <p>or</p>
+
+                            <ul class="social-icon">
+                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            </ul>
+
+                            <div class="createAccount">
+                                <p>Don't have any account ? <span class="clickRegister">Register Now</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--------------------------------------- Navbar ----------------------------------------->
+<nav class="navigationBar" id="navigationBar">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="shopImage/img/logo-1.png" alt=""></a>
+
+            <div class="menuBar">
+                <span class="b1">.</span>
+                <span class="b2">.</span>
+                <span class="b3">.</span>
+            </div>
+
+            <ul class="navList">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="feature.html">Feature</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="btn-cart-login">
+                <button class="cartBtn" id="cartBtn">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div class="amountCart">0</div>
+                </button>
+                <button class="loginBtn" id="loginBtn"><i class="fa fa-user" aria-hidden="true"></i></button>
+            </div>
+
+
+        </div>
+
+        <div class="navbar-slide-bg"></div>
+
+        <div class="navbar-slide">
+            <div class="nav-slide-header">
+                <h2>YOUR CART</h2>
+                <i class='bx bx-x' id="navbar-slide-close"></i>
+            </div>
+
+            <div class="navbar-slide-product-container">
+
+                <div class="navbar-slide-product">
+                    <div class="image"><img src="/shopImage/product-01.jpg" alt=""></div>
+                    <div class="content">
+                        <p class="title">White Shirt Pleat</p>
+                        <div class="navbar-slide-product-sum">
+                            <span class="quantity">1</span> x <span class="price">50.00$</span>
+                        </div>
+                    </div>
+                    <div class="delete-product">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </div>
+                <div class="navbar-slide-product">
+                    <div class="image"><img src="/shopImage/product-01.jpg" alt=""></div>
+                    <div class="content">
+                        <p class="title">White Shirt lorem Pleat</p>
+                        <div class="navbar-slide-product-sum">
+                            <span class="quantity">1</span> x <span class="price">50.00$</span>
+                        </div>
+                    </div>
+                    <div class="delete-product">
+                        <i class='bx bxs-trash'></i>
+                    </div>
+                </div>
+
+    
+            </div>
+
+            <div class="navbar-slide-total">
+                <p>Sub Total :</p>
+                <p class="navbar-total">00.00$</p>
+            </div>
+
+            <button class="nav-view"><a href="feature.html">View Cart</a></button>
+        </div>
+
+</nav>
+
+<!---------------------------------- Header section -------------------------------------->
+<header class="header">
+        <div class="swiper myHeader">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide show-header-1">
+                    <div class="container">
+                        <div class="content">
+                            <span>Collection of popular fashion</span>
+                            <h3>WELCOME TO</h3>
+                            <h2>FRANS STORE</h2>
+                            <p>Lorem ipsum dolor aut exercitationem necessitatibus, mollitia dicta numquam quod atque
+                                iusto aspernatur assumenda.</p>
+                            <div class="header-btn-bx">
+                                <button class="header-btn-shop header-btn"><a href="/shop.html">Show Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide show-header-2">
+                    <div class="container">
+                        <div class="content">
+                            <span>First time Get 20% discount</span>
+
+                            <h2> Get 20% discount</h3>
+                                <h3>For first time customers</h3>
+                                <p>Lorem ipsum dolor aut exercitationem necessitatibus, mollitia dicta numquam quod
+                                    atque iusto aspernatur assumenda.</p>
+                                <div class="header-btn-bx">
+                                    <button class="header-btn-register header-btn">Register</button>
+                                    <button class="header-btn-login header-btn">Login</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide show-header-3">
+                    <div class="container">
+                        <div class="content">
+                            <span>Collection of popular fashion 2023</span>
+                            <h3> Collection of popular</h3>
+                            <h2>fashion magazines</h2>
+                            <p>Lorem ipsum dolor aut exercitationem necessitatibus, mollitia dicta numquam quod atque
+                                iusto aspernatur assumenda.</p>
+                            <button class="header-btn-shop header-btn"><a href="blog.html">View magazines</a></button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </header>
+
+<!--------------------------------- Product category ------------------------------------>
+<section class="product-category">
+    <div class="product-category-row">
+
+        <div class="product-category-col">
+            <div class="image"><img src="/img/man.jpeg" alt=""></div>
+            <div class="content">
+                <h2><a href="shop.html">MEN <br>FASHION</a></h2>
+            </div>
+        </div>
+
+        <div class="product-category-col">
+            <div class="image"><img src="/img/woman.jpeg" alt=""></div>
+            <div class="content">
+                <h2><a href="shop.html">WOMEN <br>FASHION</a></h2>
+            </div>
+        </div>
+
+        <div class="product-category-col">
+            <div class="image"><img src="/img/accessories.jpeg" alt=""></div>
+            <div class="content">
+                <h2><a href="shop.html">OTHER <br>FASHION</a></h2>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!---------------------------------- Promotion section ----------------------------------->
+<section class="promotion">
+        <div class="container">
+            <div class="promotion-header">
+                <marquee loop="infinite">
+                    <span>Welcome to the FRANS store that collects a wide variety of products by year's
+                        popularity.</span>
+                    <span>For new members, it's free. 20% discount from the website for using the product 1 time (1
+                        license per 1 new customer)</span>
+                    <span> Many promotions of the month that are ready to be given to customers to use. enjoy with your
+                        purchase.</span>
+                </marquee>
+            </div>
+
+            <div class="promotion-row ">
+
+                <div class="promotion-col po-1">
+                    <div class="image">
+                        <img src="/shopImage/img/block-1.webp" alt="">
+                        <div class="po-content">
+                            <h3>First time members get 20% discount.</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos unde quod, numquam
+                                perspiciatis exercitationem dolor?</p>
+                            <button>Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promotion-col po-2">
+                    <div class="image">
+                        <img src="/shopImage/img/block-2.webp" alt="">
+                        <div class="po-content">
+                            <h3>Get 10% discount when purchasing $20</h3>
+                            <button>Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promotion-col po-3">
+                    <div class="image">
+                        <img src="/shopImage/img/block-3.webp" alt="">
+                        <div class="po-content">
+                            <h3>Free shipping on purchases of $25 or more</h3>
+                            <button>Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promotion-col po-4">
+                    <div class="image">
+                        <img src="/shopImage/img/block-4.webp" alt="">
+                        <div class="po-content">
+                            <h3>Buy 1 item, get 5% discount immediately.</h3>
+                            <button>Get it</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="promotion-col po-5">
+                    <div class="image">
+                        <img src="/shopImage/img/block-5.webp" alt="">
+                        <div class="po-content">
+                            <h3> complete purchase $30 or more Get an instant 10% discount</h3>
+                            <button>Get it</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!---------------------------------- Popular section -------------------------------------->
+<section class="popular">
+
+        <div class="container">
+
+            <div class="header-content">
+                <h2>Popular Product</h2>
+                <p>Lorem, adipisicing elit. Unde ab aut consequuntur quos rem nostrum.</p>
+            </div>
+
+
+            <div class="popular-row">
+                <!-- <div class="popular-col">
+                <div class="image"><img src="/shopImage/product-01.jpg" alt=""></div>
+                <div class="content">
+                    <h2 class="pouular-name"></h2>
+                    <p class="pouular-priice"></p>
+                </div>
+            </div> -->
+            </div>
+
+            <div class="vm">
+                <a href="shop.html" class="viewMore">View More</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+<!---------------------------------- VIP Serbice section -------------------------------------->
+<section class="vip">
+        <div class="container">
+            <div class="content">
+                <h2>Monthly subscription with us to receive many privileges</h2>
+                <button class="vipBtn">Sign up now</button>
+            </div>
+        </div>
+    </section>
+
+<!---------------------------------- Blog section -------------------------------------->
+<section class="blog">
+        <div class="container">
+            <div class="header-content">
+                <h2>Our Blogs</h2>
+                <p>Lorem, adipisicing elit. Unde ab aut consequuntur quos rem nostrum.</p>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-col">
+                    <div class="image"><img src="/shopImage/img/block-1.webp" alt="">
+                        <div class="show-vp">View Blog</div>
+                    </div>
+                    <div class="content">
+                        <h6>By FRANS Store on November 22, 2023</h6>
+                        <h3><a href="blog.html">8 Inspiring Ways to Wear Dresses in the Winter</a></h3>
+                        <p>Duis ut velit gravida nibh bibendum commodo. Suspendisse pellentesque mattis augue id
+                            euismod. Interdum et male-suada fames</p>
+                    </div>
+                </div>
+
+
+                <div class="blog-col">
+                    <div class="image"><img src="/shopImage/img/block-2.webp" alt="">
+                        <div class="show-vp">View Blog</div>
+                    </div>
+                    <div class="content">
+                        <h6>By FRANS Store on November 22, 2023</h6>
+                        <h3><a href="blog.html">The Great Big List of Men’s Gifts for the Holidays</a></h3>
+                        <p>Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in
+                            tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame</p>
+                    </div>
+                </div>
+                <div class="blog-col">
+                    <div class="image"><img src="/shopImage/img/block-3.webp" alt="">
+                        <div class="show-vp">View Blog</div>
+                    </div>
+                    <div class="content">
+                        <h6>By FRANS Store on November 22, 2023</h6>
+                        <h3><a href="blog.html">5 Winter-to-Spring Fashion Trends to Try Now</a></h3>
+                        <p>Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed
+                            hendrerit ligula porttitor. Fusce sit amet maximus nunc</p>
+                    </div>
+                </div>
+                <div class="blog-col">
+                    <div class="image"><img src="/shopImage/img/block-4.webp" alt="">
+                        <div class="show-vp">View Blog</div>
+                    </div>
+                    <div class="content">
+                        <h6>By FRANS Store on November 22, 2023</h6>
+                        <h3><a href="blog.html">
+                                The most popular and best selling fashion in 2022
+                            </a></h3>
+                        <p>Suspendisse pellentesque mattis augue id euismod. Nullam scelerisque, lacus sed consequat
+                            laoreet, dui Fusce sit amet maximus nunc</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!---------------------------------- Footer section -------------------------------------->
+<footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+
+                <div class="footer-col">
+                    <h5>CATEGORIES</h5>
+                    <ul>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">Men</a></li>
+                        <li><a href="">Shoes</a></li>
+                        <li><a href="">Watches</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h5>HELP</h5>
+                    <ul>
+                        <li><a href="">Track Order</a></li>
+                        <li><a href="">Returns</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>GET IN TOUCH</h5>
+                    <p>Any questions? Let us know in store at 123 Marine Dr, San Francisco, 11111 or call us on
+                        +1 23 456 7890</p>
+                </div>
+
+                <div class="footer-col">
+                    <h5>NEWSLETTER</h5>
+                    <input type="text" placeholder="example1234@gmail.com">
+                    <button>Subscribe</button>
+                </div>
+
+            </div>
+
+            <div class="allCredit">
+                <span><img src="/shopImage/icon-pay-01.png" alt=""></span>
+                <span><img src="/shopImage/icon-pay-02.png" alt=""></span>
+                <span><img src="/shopImage/icon-pay-03.png" alt=""></span>
+                <span><img src="/shopImage/icon-pay-04.png" alt=""></span>
+                <span><img src="/shopImage/icon-pay-05.png" alt=""></span>
+            </div>
+            <div class="credit-builder">
+                <p>Copyright ©2023 All rights reserved | Made with MakeWebByNew</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Font awesome cdn -->
+    <script src="/systemShopping/fontawesome.min.js"></script>
+    <!-- Swiper CDN -->
+    <script src="/swiperCDN/swiper-bundle.min.js"></script>
+    <!-- Sweet alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- System Javascript -->
+    <script src="/systemShopping/data.js"></script>
+    <script src="/systemShopping/navbar.js"></script>
+    <script src="/systemShopping/register.js"></script>
+    <script src="navbar.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
